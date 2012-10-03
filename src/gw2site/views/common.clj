@@ -29,7 +29,7 @@
 
 (def admin-header-links [{:url "/admin" :text "Admin" :link "admin"}
                          {:url "/admin/users" :text "Users" :link "admin/users"}
-                         {:url "/admin" :text "Posts" :link "admin/posts"}
+                         {:url "/admin" :text "Posts" :link "admin"}
                          {:url "/admin/logout" :text "Logout" :link "admin/logout"}])
 
 (defpartial build-head [incls]
